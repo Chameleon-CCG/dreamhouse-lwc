@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upcoming_Showings</fullName>
+    <columns>NAME</columns>
+    <columns>Property__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Broker__c</columns>
+    <columns>Scheduled_DateTime__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Outcome__c</field>
+        <operation>equals</operation>
+        <value>Scheduled</value>
+    </filters>
+    <label>Upcoming Showings</label>
+</ListView>

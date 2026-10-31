@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lot_Premium__c</fullName>
+    <description>Premium charged for this lot on top of the plan base price (view, cul-de-sac, size).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Added to the Home Plan base price.</inlineHelpText>
+    <label>Lot Premium</label>
+    <precision>9</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

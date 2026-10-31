@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outcome__c</fullName>
+    <description>Result of the showing, recorded by the broker afterwards.</description>
+    <externalId>false</externalId>
+    <label>Outcome</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Scheduled</fullName>
+                <default>true</default>
+                <label>Scheduled</label>
+            </value>
+            <value>
+                <fullName>Completed - Interested</fullName>
+                <default>false</default>
+                <label>Completed - Interested</label>
+            </value>
+            <value>
+                <fullName>Completed - Not Interested</fullName>
+                <default>false</default>
+                <label>Completed - Not Interested</label>
+            </value>
+            <value>
+                <fullName>No Show</fullName>
+                <default>false</default>
+                <label>No Show</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

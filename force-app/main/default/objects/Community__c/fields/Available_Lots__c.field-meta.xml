@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available_Lots__c</fullName>
+    <description>Count of lots in this community with Status = Available.</description>
+    <label>Available Lots</label>
+    <summaryFilterItems>
+        <field>Lot__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Available</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Lot__c.Community__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

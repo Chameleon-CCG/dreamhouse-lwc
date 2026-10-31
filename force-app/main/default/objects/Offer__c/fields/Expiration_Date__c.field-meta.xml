@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expiration_Date__c</fullName>
+    <description>Date the offer lapses if not accepted.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Offers must expire in the future.</inlineHelpText>
+    <label>Expiration Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

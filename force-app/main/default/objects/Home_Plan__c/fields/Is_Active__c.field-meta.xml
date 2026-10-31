@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Active__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Plan is currently offered for sale. Retired plans stay for historical lots.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Untick when a plan is retired from the price sheet.</inlineHelpText>
+    <label>Active</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
