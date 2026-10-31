@@ -158,7 +158,7 @@ This is how Laura describes it. She will check it in UAT.
 | Person | Lot board | Put a hold on a lot | Reserve a Lot screen | Deposits | Pre-qual result on offer | Bulk accept offers | Record a late counter-offer | Offers expiring this week |
 |--------|-----------|---------------------|----------------------|----------|--------------------------|--------------------|-----------------------------|---------------------------|
 | Dana (Sales Manager) | Yes | Yes | Yes | See and edit all | Yes | **Yes, only her** | Yes | Yes |
-| Ravi (Broker) | Yes | Yes | No | See only | Yes | No | No | Yes |
+| Ravi (Broker) | Yes | Yes | No | See only | Yes | No | Yes (he can edit offers today) | Yes |
 | Kim (Listing Coordinator) | Yes | Yes | Yes | Create and edit | Yes | No | **Yes** | Yes |
 | Pat (Front Desk) | **No** | **No** | **No** | **No** | **No** | **No** | **No** | **No** |
 
