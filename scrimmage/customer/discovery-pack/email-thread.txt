@@ -1,0 +1,118 @@
+From: Laura Brennan <laura.brennan@example.com>
+Sent: Wednesday, October 28, 2026 8:12 AM
+To: CCG delivery team
+Subject: FW: Keystone pre-qual + the expired offer problem
+
+Hi all,
+
+As promised on the call yesterday. Two threads stuck together below.
+The first is about Keystone (pre-qual). The second is Kim's problem with late counter-offers.
+Monica's API spec is attached separately (lender-api-spec.md).
+
+Thanks,
+Laura
+
+Laura Brennan
+Director of Sales Operations, Dreamhouse Homes
+
+---------- Forwarded thread 1 ----------
+
+From: Monica Feld <monica.feld@example.com>
+Sent: Tuesday, October 27, 2026 4:48 PM
+To: Laura Brennan <laura.brennan@example.com>
+Cc: Ravi Menon <ravi.menon@example.com>
+Subject: RE: Pre-qual check from Salesforce?
+
+Hi Laura,
+
+Good to talk earlier. Spec attached. Short version:
+
+- One call. You send us the buyer's name and email, the purchase price, the loan type
+  and the state. We tell you if they're pre-qualified for that price with us.
+- We don't pull credit on this call. It only checks pre-qualifications the buyer already
+  has with Keystone.
+- Your partner ID is DREAMHOUSE-0042.
+- I'll email the sandbox API key to your implementation team directly once you tell me
+  who they are. The production key is issued at go-live. Please don't put keys in email
+  chains or chat.
+- Sandbox has test borrowers so your team can try every answer (see section 6 of the spec).
+- We get nervous if a partner hammers us. 60 requests a minute is the limit.
+
+Any questions, I'm the person.
+
+Monica Feld
+Partner Integrations Manager, Keystone Home Lending
+
+> From: Laura Brennan <laura.brennan@example.com>
+> Sent: Tuesday, October 27, 2026 1:05 PM
+> To: Monica Feld <monica.feld@example.com>
+> Cc: Ravi Menon <ravi.menon@example.com>
+> Subject: Pre-qual check from Salesforce?
+>
+> Hi Monica,
+>
+> We're getting some Salesforce work done. Ravi tells me you have an API for checking
+> whether a buyer is pre-qualified. Could we hook that up so it checks automatically
+> when one of our brokers logs an offer? Can you send whatever our people would need?
+>
+> Laura
+
+> > From: Ravi Menon <ravi.menon@example.com>
+> > Sent: Monday, October 26, 2026 6:31 PM
+> > To: Laura Brennan <laura.brennan@example.com>
+> > Subject: Keystone
+> >
+> > Laura, before the call tomorrow. Every offer I take on a financed buyer, I email
+> > Keystone to ask if the buyer is good for the price. It takes a day, sometimes two.
+> > Sellers' agents want to know the same afternoon. Keystone has some kind of API,
+> > Monica Feld is the contact there. If Salesforce could just ask them when I put the
+> > offer in, that would save me hours a week. Cash buyers obviously don't need it.
+> >
+> > Ravi
+
+---------- Forwarded thread 2 ----------
+
+From: Dana Whitfield <dana.whitfield@example.com>
+Sent: Friday, October 23, 2026 3:02 PM
+To: Kim Alvarez <kim.alvarez@example.com>
+Cc: Laura Brennan <laura.brennan@example.com>
+Subject: RE: Can't save the counter on 127 Endicott
+
+Kim, I tried it on mine and got the same message. I've put the counter in the notes on the
+property for now.
+
+Laura, can we get this fixed in the Salesforce project? But I don't want the expiration
+check gone completely. Brokers still try to key in offers that are already dead. The
+rule stops that and it should keep stopping that.
+
+Dana
+
+> From: Kim Alvarez <kim.alvarez@example.com>
+> Sent: Friday, October 23, 2026 2:40 PM
+> To: Dana Whitfield <dana.whitfield@example.com>
+> Cc: Laura Brennan <laura.brennan@example.com>
+> Subject: Can't save the counter on 127 Endicott
+>
+> Hi Dana,
+>
+> Same problem again. The seller on 127 Endicott came back with a counter this morning.
+> The buyer's offer expired yesterday. I can't edit offers myself (there's no Edit button
+> on offers for me at all), so I asked Ravi to change the status to Countered. It won't
+> save. It says:
+>
+>     Expiration Date must be in the future.
+>
+> I don't want to change the expiration date. We don't have a new deadline yet, the
+> buyer's agent hasn't come back. I just want it to show Countered and put the counter
+> terms in the notes so everyone can see where we are.
+>
+> And I'd like to be able to do this myself. It's my job to keep these up to date and I
+> end up asking you or Ravi every time.
+>
+> This happens maybe four or five times a month. Late counters are normal.
+>
+> Thanks,
+> Kim
+>
+> Kim Alvarez
+> Listing Coordinator, Dreamhouse Homes
