@@ -102,6 +102,25 @@ carry a proposed label that Jim has not agreed yet.
 
 ---
 
+### 0.10 Customer inputs and scoring
+
+The customer's words come only from `scrimmage/customer/`. Jim posts each line in the shared channel, starting it with "**Laura Brennan (Dreamhouse Homes):**". Scoring uses `scrimmage/answer-key/expected-outcomes.md` together with `data/ANSWER_KEY.md`, and neither file is shown to the platform.
+
+| Stage | Customer input | Slack script turn |
+|---|---|---|
+| 1.9 Slack channels ready | Kickoff | Turn 1 |
+| 3.2 Audit findings shared | Reaction to the audit | Turn 2 |
+| 5.1 Discovery intake | Upload every file in `customer/discovery-pack/` unchanged | None |
+| 8.2 R2 clarification, only when the platform asks | Reservation window | Turn 3 |
+| 8.2 R8 clarification, only when the platform asks | What "faster" means | Turn 4 |
+| 6.3 Readout decision | Request changes, then approve the revision | Turns 5 and 6 |
+| 7.2 Proposal decision | Approve | Turn 7 |
+| 8.x CHIT gate cards | Gate card rules | Turn 8 and section 3 |
+| 9.2 / UAT | UAT invitation, feedback and fix confirmation | Turns 9 to 11 |
+| 10 Production sign-off | Sign-off, then the release confirmed | Turns 12 and 13 |
+
+Anything the platform asks that the script doesn't cover is answered from section 4 of the Slack script. If that can't answer it, the reply is the "Questions Laura can't answer" line. Every unscripted exchange is logged on the scorecard.
+
 ## Stage 1. Standup
 
 Goal: a fresh staging tenant, four fresh scratch orgs (dev, qa, uat, prod) loaded with
