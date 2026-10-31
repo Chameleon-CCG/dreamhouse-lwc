@@ -29,9 +29,7 @@ private class OfferTriggerTest {
 
         Offer__c o = new Offer__c(
             Property__c = prop.Id,
-            Amount__c = 450000,
-            Status__c = 'Submitted',
-            Expiration_Date__c = Date.today().addDays(10)
+            Amount__c = 450000
         );
         insert o;
 
