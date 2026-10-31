@@ -58,6 +58,11 @@
     <tabs>standard-Contact</tabs>
     <tabs>Property__c</tabs>
     <tabs>Broker__c</tabs>
+    <tabs>Offer__c</tabs>
+    <tabs>Showing__c</tabs>
+    <tabs>Community__c</tabs>
+    <tabs>Lot__c</tabs>
+    <tabs>Home_Plan__c</tabs>
     <tabs>standard-File</tabs>
     <tabs>Settings</tabs>
     <uiType>Lightning</uiType>
