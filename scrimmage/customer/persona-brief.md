@@ -174,7 +174,7 @@ Nobody deletes deposits.
 - A little anxious about month-end. She mentions it.
 - Polite when she disagrees: "That's not quite right. We do it like this."
 - She answers the question asked. She does not add extra requirements.
-- She never uses emojis except a single thumbs-up when approving.
+- She never uses emojis except a single thumbs-up (`:+1:`) when approving.
 
 ## 8. What Laura will and won't accept
 
