@@ -55,6 +55,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Listing_Price__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>Location__c</field>
             </layoutItems>
             <layoutItems>
@@ -167,6 +171,21 @@
     </layoutSections>
     <relatedLists>
         <relatedList>RelatedFileList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>Buyer__c</fields>
+        <fields>Amount__c</fields>
+        <fields>Status__c</fields>
+        <fields>Expiration_Date__c</fields>
+        <relatedList>Offer__c.Property__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>Contact__c</fields>
+        <fields>Scheduled_DateTime__c</fields>
+        <fields>Outcome__c</fields>
+        <relatedList>Showing__c.Property__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
