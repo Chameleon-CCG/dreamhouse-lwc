@@ -20,7 +20,8 @@
             "Tags__c": "victorian",
             "Description__c": "Lorem ipsum dolor sit amet",
             "Broker__c": "@CarolineBrookerRef",
-            "Status__c": "Available"
+            "Status__c": "Available",
+            "Listing_Price__c": 975000
         },
         {
             "attributes": {
@@ -42,7 +43,8 @@
             "Tags__c": "colonial",
             "Description__c": "Lorem ipsum dolor sit amet",
             "Broker__c": "@MichaelJonesRef",
-            "Status__c": "Contracted"
+            "Status__c": "Contracted",
+            "Listing_Price__c": 1250000
         },
         {
             "attributes": {
@@ -64,7 +66,8 @@
             "Tags__c": "contemporary",
             "Description__c": "Lorem ipsum dolor sit amet",
             "Broker__c": "@JonathanBradleyRef",
-            "Status__c": "Pre Market"
+            "Status__c": "Pre Market",
+            "Listing_Price__c": 825000
         },
         {
             "attributes": {
@@ -86,7 +89,8 @@
             "Tags__c": "colonial",
             "Description__c": "Lorem ipsum dolor sit amet",
             "Broker__c": "@JenniferWuRef",
-            "Status__c": "Available"
+            "Status__c": "Available",
+            "Listing_Price__c": 930000
         },
         {
             "attributes": {
@@ -130,7 +134,8 @@
             "Tags__c": "colonial",
             "Description__c": "Lorem ipsum dolor sit amet",
             "Broker__c": "@MiriamAupontRef",
-            "Status__c": "Contracted"
+            "Status__c": "Contracted",
+            "Listing_Price__c": 725000
         },
         {
             "attributes": {
@@ -152,7 +157,8 @@
             "Tags__c": "colonial",
             "Description__c": "Lorem ipsum dolor sit amet",
             "Broker__c": "@MichelleLambertRef",
-            "Status__c": "Available"
+            "Status__c": "Available",
+            "Listing_Price__c": 475000
         },
         {
             "attributes": {
@@ -174,7 +180,8 @@
             "Tags__c": "victorian",
             "Description__c": "Lorem ipsum dolor sit amet",
             "Broker__c": "@VictorOchoaRef",
-            "Status__c": "Under Agreement"
+            "Status__c": "Under Agreement",
+            "Listing_Price__c": 450000
         },
         {
             "attributes": {
@@ -196,7 +203,8 @@
             "Tags__c": "contemporary",
             "Description__c": "Lorem ipsum dolor sit amet",
             "Broker__c": "@CarolineBrookerRef",
-            "Status__c": "Available"
+            "Status__c": "Available",
+            "Listing_Price__c": 450000
         },
         {
             "attributes": {
@@ -218,7 +226,8 @@
             "Tags__c": "contemporary",
             "Description__c": "Lorem ipsum dolor sit amet",
             "Broker__c": "@MichaelJonesRef",
-            "Status__c": "Available"
+            "Status__c": "Available",
+            "Listing_Price__c": 625000
         },
         {
             "attributes": {
@@ -240,7 +249,8 @@
             "Tags__c": "contemporary",
             "Description__c": "Lorem ipsum dolor sit amet",
             "Broker__c": "@JonathanBradleyRef",
-            "Status__c": "Available"
+            "Status__c": "Available",
+            "Listing_Price__c": 690000
         },
         {
             "attributes": {

@@ -9,7 +9,7 @@
             "Title__c": "Senior Broker",
             "Phone__c": "617-244-3672",
             "Mobile_Phone__c": "617-244-3672",
-            "Email__c": "caroline@dreamhouse.demo",
+            "Email__c": "caroline.kingsley@example.com",
             "Picture__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/people/caroline_kingsley.jpg"
         },
         {
@@ -21,7 +21,7 @@
             "Title__c": "Senior Broker",
             "Phone__c": "617-244-3672",
             "Mobile_Phone__c": "617-244-3672",
-            "Email__c": "michael@dreamhouse.demo",
+            "Email__c": "michael.jones@example.com",
             "Picture__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/people/michael_jones.jpg"
         },
         {
@@ -33,7 +33,7 @@
             "Title__c": "Senior Broker",
             "Phone__c": "617-244-3672",
             "Mobile_Phone__c": "617-244-3672",
-            "Email__c": "jonathan@dreamhouse.demo",
+            "Email__c": "jonathan.bradley@example.com",
             "Picture__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/people/jonathan_bradley.jpg"
         },
         {
@@ -45,7 +45,7 @@
             "Title__c": "Senior Broker",
             "Phone__c": "617-244-3672",
             "Mobile_Phone__c": "617-244-3672",
-            "Email__c": "jen@dreamhouse.demo",
+            "Email__c": "jennifer.wu@example.com",
             "Picture__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/people/jennifer_wu.jpg"
         },
         {
@@ -57,7 +57,7 @@
             "Title__c": "Senior Broker",
             "Phone__c": "617-244-3672",
             "Mobile_Phone__c": "617-244-3672",
-            "Email__c": "olivia@dreamhouse.demo",
+            "Email__c": "olivia.green@example.com",
             "Picture__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/people/olivia_green.jpg"
         },
         {
@@ -69,7 +69,7 @@
             "Title__c": "Senior Broker",
             "Phone__c": "617-244-3672",
             "Mobile_Phone__c": "617-244-3672",
-            "Email__c": "miriam@dreamhouse.demo",
+            "Email__c": "miriam.aupont@example.com",
             "Picture__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/people/miriam_aupont.jpg"
         },
         {
@@ -81,7 +81,7 @@
             "Title__c": "Senior Broker",
             "Phone__c": "617-244-3672",
             "Mobile_Phone__c": "617-244-3672",
-            "Email__c": "michelle@dreamhouse.demo",
+            "Email__c": "michelle.lambert@example.com",
             "Picture__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/people/michelle_lambert.jpg"
         },
         {
@@ -93,7 +93,7 @@
             "Title__c": "Senior Broker",
             "Phone__c": "617-244-3672",
             "Mobile_Phone__c": "617-244-3672",
-            "Email__c": "victor@dreamhouse.demo",
+            "Email__c": "victor.ochoa@example.com",
             "Picture__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/people/victor_ochoa.jpg"
         }
     ]

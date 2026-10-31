@@ -1,0 +1,74 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Home_Plan__c",
+                "referenceId": "AspenRef"
+            },
+            "Name": "The Aspen",
+            "Beds__c": 3,
+            "Baths__c": 2,
+            "Square_Feet__c": 1850,
+            "Base_Price__c": 489900,
+            "Stories__c": "1",
+            "Garage_Spaces__c": 2,
+            "Is_Active__c": false
+        },
+        {
+            "attributes": {
+                "type": "Home_Plan__c",
+                "referenceId": "BirchwoodRef"
+            },
+            "Name": "The Birchwood",
+            "Beds__c": 3,
+            "Baths__c": 2.5,
+            "Square_Feet__c": 2150,
+            "Base_Price__c": 539900,
+            "Stories__c": "2",
+            "Garage_Spaces__c": 2,
+            "Is_Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "Home_Plan__c",
+                "referenceId": "CypressRef"
+            },
+            "Name": "The Cypress",
+            "Beds__c": 4,
+            "Baths__c": 2.5,
+            "Square_Feet__c": 2480,
+            "Base_Price__c": 599900,
+            "Stories__c": "2",
+            "Garage_Spaces__c": 2,
+            "Is_Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "Home_Plan__c",
+                "referenceId": "DogwoodRef"
+            },
+            "Name": "The Dogwood",
+            "Beds__c": 4,
+            "Baths__c": 3.5,
+            "Square_Feet__c": 2950,
+            "Base_Price__c": 679900,
+            "Stories__c": "2",
+            "Garage_Spaces__c": 3,
+            "Is_Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "Home_Plan__c",
+                "referenceId": "EvergreenRef"
+            },
+            "Name": "The Evergreen",
+            "Beds__c": 5,
+            "Baths__c": 4,
+            "Square_Feet__c": 3400,
+            "Base_Price__c": 759900,
+            "Stories__c": "2",
+            "Garage_Spaces__c": 3,
+            "Is_Active__c": true
+        }
+    ]
+}

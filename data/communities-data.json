@@ -1,0 +1,40 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Community__c",
+                "referenceId": "WillowCreekRef"
+            },
+            "Name": "Willow Creek",
+            "City__c": "Concord",
+            "State__c": "MA",
+            "Phase__c": "Phase 2",
+            "Total_Lots__c": 48,
+            "Sales_Office_Phone__c": "978-555-0110"
+        },
+        {
+            "attributes": {
+                "type": "Community__c",
+                "referenceId": "HarborPointeRef"
+            },
+            "Name": "Harbor Pointe",
+            "City__c": "Quincy",
+            "State__c": "MA",
+            "Phase__c": "Phase 1",
+            "Total_Lots__c": 36,
+            "Sales_Office_Phone__c": "617-555-0120"
+        },
+        {
+            "attributes": {
+                "type": "Community__c",
+                "referenceId": "StonebridgeRef"
+            },
+            "Name": "Stonebridge Farm",
+            "City__c": "Lexington",
+            "State__c": "MA",
+            "Phase__c": "Phase 3",
+            "Total_Lots__c": 24,
+            "Sales_Office_Phone__c": "781-555-0130"
+        }
+    ]
+}

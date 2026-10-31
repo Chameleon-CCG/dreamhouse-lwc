@@ -2,16 +2,65 @@
     {
         "sobject": "Broker__c",
         "saveRefs": true,
-        "files": ["brokers-data.json"]
+        "files": [
+            "brokers-data.json"
+        ]
     },
     {
         "sobject": "Property__c",
+        "saveRefs": true,
         "resolveRefs": true,
-        "files": ["properties-data.json"]
+        "files": [
+            "properties-data.json"
+        ]
     },
     {
         "sobject": "Contact",
         "resolveRefs": false,
-        "files": ["contacts-data.json"]
+        "files": [
+            "contacts-data.json"
+        ]
+    },
+    {
+        "sobject": "Contact",
+        "saveRefs": true,
+        "files": [
+            "buyers-data.json"
+        ]
+    },
+    {
+        "sobject": "Home_Plan__c",
+        "saveRefs": true,
+        "files": [
+            "home-plans-data.json"
+        ]
+    },
+    {
+        "sobject": "Community__c",
+        "saveRefs": true,
+        "files": [
+            "communities-data.json"
+        ]
+    },
+    {
+        "sobject": "Lot__c",
+        "resolveRefs": true,
+        "files": [
+            "lots-data.json"
+        ]
+    },
+    {
+        "sobject": "Offer__c",
+        "resolveRefs": true,
+        "files": [
+            "offers-data.json"
+        ]
+    },
+    {
+        "sobject": "Showing__c",
+        "resolveRefs": true,
+        "files": [
+            "showings-data.json"
+        ]
     }
 ]

@@ -1,0 +1,311 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "WC101Ref"
+            },
+            "Name": "WC-101",
+            "Community__c": "@WillowCreekRef",
+            "Status__c": "Sold",
+            "Lot_Premium__c": 15000,
+            "Lot_Size_Acres__c": 0.31,
+            "Home_Plan__c": "@CypressRef"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "WC102Ref"
+            },
+            "Name": "WC-102",
+            "Community__c": "@WillowCreekRef",
+            "Status__c": "Sold",
+            "Lot_Premium__c": 0,
+            "Lot_Size_Acres__c": 0.28,
+            "Home_Plan__c": "@BirchwoodRef"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "WC103Ref"
+            },
+            "Name": "WC-103",
+            "Community__c": "@WillowCreekRef",
+            "Status__c": "Under Construction",
+            "Lot_Premium__c": 22000,
+            "Lot_Size_Acres__c": 0.35,
+            "Home_Plan__c": "@DogwoodRef",
+            "Estimated_Completion_Date__c": "2027-02-15"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "WC104Ref"
+            },
+            "Name": "WC-104",
+            "Community__c": "@WillowCreekRef",
+            "Status__c": "Under Construction",
+            "Lot_Premium__c": 10000,
+            "Lot_Size_Acres__c": 0.3,
+            "Home_Plan__c": "@CypressRef",
+            "Estimated_Completion_Date__c": "2027-03-01"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "WC105Ref"
+            },
+            "Name": "WC-105",
+            "Community__c": "@WillowCreekRef",
+            "Status__c": "Reserved",
+            "Lot_Premium__c": 35000,
+            "Lot_Size_Acres__c": 0.42,
+            "Home_Plan__c": "@EvergreenRef",
+            "Reserved_By__c": "@Buyer1Ref",
+            "Reserved_Date__c": "2026-10-02"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "WC106Ref"
+            },
+            "Name": "WC-106",
+            "Community__c": "@WillowCreekRef",
+            "Status__c": "Reserved",
+            "Lot_Premium__c": 5000,
+            "Lot_Size_Acres__c": 0.27,
+            "Home_Plan__c": "@BirchwoodRef",
+            "Reserved_By__c": "@Buyer2Ref",
+            "Reserved_Date__c": "2026-10-24"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "WC107Ref"
+            },
+            "Name": "WC-107",
+            "Community__c": "@WillowCreekRef",
+            "Status__c": "Available",
+            "Lot_Premium__c": 12000,
+            "Lot_Size_Acres__c": 0.29,
+            "Home_Plan__c": "@CypressRef"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "WC108Ref"
+            },
+            "Name": "WC-108",
+            "Community__c": "@WillowCreekRef",
+            "Status__c": "Available",
+            "Lot_Premium__c": 18000,
+            "Lot_Size_Acres__c": 0.33
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "WC109Ref"
+            },
+            "Name": "WC-109",
+            "Community__c": "@WillowCreekRef",
+            "Status__c": "Available",
+            "Lot_Premium__c": 0,
+            "Lot_Size_Acres__c": 0.25,
+            "Home_Plan__c": "@AspenRef"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "WC110Ref"
+            },
+            "Name": "WC-110",
+            "Community__c": "@WillowCreekRef",
+            "Status__c": "Available",
+            "Lot_Premium__c": 40000,
+            "Lot_Size_Acres__c": 0.48
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "HP01Ref"
+            },
+            "Name": "HP-01",
+            "Community__c": "@HarborPointeRef",
+            "Status__c": "Under Construction",
+            "Lot_Premium__c": 25000,
+            "Lot_Size_Acres__c": 0.22,
+            "Home_Plan__c": "@BirchwoodRef",
+            "Estimated_Completion_Date__c": "2027-01-20"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "HP02Ref"
+            },
+            "Name": "HP-02",
+            "Community__c": "@HarborPointeRef",
+            "Status__c": "Under Construction",
+            "Lot_Premium__c": 25000,
+            "Lot_Size_Acres__c": 0.22,
+            "Home_Plan__c": "@BirchwoodRef",
+            "Estimated_Completion_Date__c": "2027-01-31"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "HP03Ref"
+            },
+            "Name": "HP-03",
+            "Community__c": "@HarborPointeRef",
+            "Status__c": "Reserved",
+            "Lot_Premium__c": 30000,
+            "Lot_Size_Acres__c": 0.24,
+            "Home_Plan__c": "@CypressRef",
+            "Reserved_By__c": "@Buyer3Ref",
+            "Reserved_Date__c": "2026-09-18"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "HP04Ref"
+            },
+            "Name": "HP-04",
+            "Community__c": "@HarborPointeRef",
+            "Status__c": "Available",
+            "Lot_Premium__c": 30000,
+            "Lot_Size_Acres__c": 0.24,
+            "Home_Plan__c": "@CypressRef"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "HP05Ref"
+            },
+            "Name": "HP-05",
+            "Community__c": "@HarborPointeRef",
+            "Status__c": "Available",
+            "Lot_Premium__c": 45000,
+            "Lot_Size_Acres__c": 0.26
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "HP06Ref"
+            },
+            "Name": "HP-06",
+            "Community__c": "@HarborPointeRef",
+            "Status__c": "Available",
+            "Lot_Premium__c": 45000,
+            "Lot_Size_Acres__c": 0.26
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "HP07Ref"
+            },
+            "Name": "HP-07",
+            "Community__c": "@HarborPointeRef",
+            "Status__c": "Available",
+            "Lot_Premium__c": 52000,
+            "Lot_Size_Acres__c": 0.3,
+            "Home_Plan__c": "@DogwoodRef"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "HP08Ref"
+            },
+            "Name": "HP-08",
+            "Community__c": "@HarborPointeRef",
+            "Status__c": "Sold",
+            "Lot_Premium__c": 52000,
+            "Lot_Size_Acres__c": 0.3,
+            "Home_Plan__c": "@DogwoodRef"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "HP09Ref"
+            },
+            "Name": "HP-09",
+            "Community__c": "@HarborPointeRef",
+            "Status__c": "Available",
+            "Lot_Premium__c": 20000,
+            "Lot_Size_Acres__c": 0.21
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "SB21Ref"
+            },
+            "Name": "SB-21",
+            "Community__c": "@StonebridgeRef",
+            "Status__c": "Sold",
+            "Lot_Premium__c": 60000,
+            "Lot_Size_Acres__c": 0.75,
+            "Home_Plan__c": "@EvergreenRef"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "SB22Ref"
+            },
+            "Name": "SB-22",
+            "Community__c": "@StonebridgeRef",
+            "Status__c": "Sold",
+            "Lot_Premium__c": 55000,
+            "Lot_Size_Acres__c": 0.7,
+            "Home_Plan__c": "@EvergreenRef"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "SB23Ref"
+            },
+            "Name": "SB-23",
+            "Community__c": "@StonebridgeRef",
+            "Status__c": "Sold",
+            "Lot_Premium__c": 48000,
+            "Lot_Size_Acres__c": 0.66,
+            "Home_Plan__c": "@DogwoodRef"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "SB24Ref"
+            },
+            "Name": "SB-24",
+            "Community__c": "@StonebridgeRef",
+            "Status__c": "Under Construction",
+            "Lot_Premium__c": 65000,
+            "Lot_Size_Acres__c": 0.81,
+            "Home_Plan__c": "@EvergreenRef",
+            "Estimated_Completion_Date__c": "2026-12-15"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "SB25Ref"
+            },
+            "Name": "SB-25",
+            "Community__c": "@StonebridgeRef",
+            "Status__c": "Reserved",
+            "Lot_Premium__c": 50000,
+            "Lot_Size_Acres__c": 0.68,
+            "Home_Plan__c": "@DogwoodRef",
+            "Reserved_By__c": "@Buyer4Ref",
+            "Reserved_Date__c": "2026-10-28"
+        },
+        {
+            "attributes": {
+                "type": "Lot__c",
+                "referenceId": "SB26Ref"
+            },
+            "Name": "SB-26",
+            "Community__c": "@StonebridgeRef",
+            "Status__c": "Available",
+            "Lot_Premium__c": 70000,
+            "Lot_Size_Acres__c": 0.9
+        }
+    ]
+}

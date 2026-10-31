@@ -1,0 +1,264 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer1Ref"
+            },
+            "Property__c": "@48BrattleStRef",
+            "Buyer__c": "@Buyer5Ref",
+            "Amount__c": 445000,
+            "Status__c": "Accepted",
+            "Expiration_Date__c": "2027-01-15",
+            "Financing_Type__c": "Conventional",
+            "Earnest_Money__c": 15000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer2Ref"
+            },
+            "Property__c": "@48BrattleStRef",
+            "Buyer__c": "@Buyer6Ref",
+            "Amount__c": 430000,
+            "Status__c": "Rejected",
+            "Expiration_Date__c": "2027-01-10",
+            "Financing_Type__c": "FHA",
+            "Earnest_Money__c": 5000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer3Ref"
+            },
+            "Property__c": "@48BrattleStRef",
+            "Buyer__c": "@Buyer7Ref",
+            "Amount__c": 425000,
+            "Status__c": "Withdrawn",
+            "Expiration_Date__c": "2027-01-08",
+            "Financing_Type__c": "Conventional",
+            "Earnest_Money__c": 10000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer4Ref"
+            },
+            "Property__c": "@24PearlStRef",
+            "Buyer__c": "@Buyer8Ref",
+            "Amount__c": 1185000,
+            "Status__c": "Accepted",
+            "Expiration_Date__c": "2027-01-22",
+            "Financing_Type__c": "Jumbo",
+            "Earnest_Money__c": 50000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer5Ref"
+            },
+            "Property__c": "@24PearlStRef",
+            "Buyer__c": "@Buyer9Ref",
+            "Amount__c": 1150000,
+            "Status__c": "Rejected",
+            "Expiration_Date__c": "2027-01-18",
+            "Financing_Type__c": "Cash",
+            "Earnest_Money__c": 40000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer6Ref"
+            },
+            "Property__c": "@18HenryStRef",
+            "Buyer__c": "@Buyer1Ref",
+            "Amount__c": 950000,
+            "Status__c": "Submitted",
+            "Expiration_Date__c": "2027-02-01",
+            "Financing_Type__c": "Jumbo",
+            "Earnest_Money__c": 30000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer7Ref"
+            },
+            "Property__c": "@18HenryStRef",
+            "Buyer__c": "@Buyer2Ref",
+            "Amount__c": 960000,
+            "Status__c": "Countered",
+            "Expiration_Date__c": "2027-02-03",
+            "Financing_Type__c": "Conventional",
+            "Earnest_Money__c": 30000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer8Ref"
+            },
+            "Property__c": "@18HenryStRef",
+            "Buyer__c": "@Buyer10Ref",
+            "Amount__c": 935000,
+            "Status__c": "Submitted",
+            "Expiration_Date__c": "2027-02-05",
+            "Financing_Type__c": "Cash",
+            "Earnest_Money__c": 25000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer9Ref"
+            },
+            "Property__c": "@32PrinceStRef",
+            "Buyer__c": "@Buyer3Ref",
+            "Amount__c": 915000,
+            "Status__c": "Submitted",
+            "Expiration_Date__c": "2027-02-10",
+            "Financing_Type__c": "Conventional",
+            "Earnest_Money__c": 25000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer10Ref"
+            },
+            "Property__c": "@32PrinceStRef",
+            "Buyer__c": "@Buyer4Ref",
+            "Amount__c": 900000,
+            "Status__c": "Rejected",
+            "Expiration_Date__c": "2027-01-30",
+            "Financing_Type__c": "VA",
+            "Earnest_Money__c": 10000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer11Ref"
+            },
+            "Property__c": "@127EndicottStRef",
+            "Buyer__c": "@Buyer6Ref",
+            "Amount__c": 440000,
+            "Status__c": "Countered",
+            "Expiration_Date__c": "2027-01-28",
+            "Financing_Type__c": "FHA",
+            "Earnest_Money__c": 7500
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer12Ref"
+            },
+            "Property__c": "@127EndicottStRef",
+            "Buyer__c": "@Buyer7Ref",
+            "Amount__c": 450000,
+            "Status__c": "Submitted",
+            "Expiration_Date__c": "2027-02-02",
+            "Financing_Type__c": "Conventional",
+            "Earnest_Money__c": 10000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer13Ref"
+            },
+            "Property__c": "@121HarborwalkRef",
+            "Buyer__c": "@Buyer9Ref",
+            "Amount__c": 445000,
+            "Status__c": "Submitted",
+            "Expiration_Date__c": "2027-02-12",
+            "Financing_Type__c": "Conventional",
+            "Earnest_Money__c": 10000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer14Ref"
+            },
+            "Property__c": "@640HarrisonAveRef",
+            "Buyer__c": "@Buyer10Ref",
+            "Amount__c": 640000,
+            "Status__c": "Submitted",
+            "Expiration_Date__c": "2027-02-14",
+            "Financing_Type__c": "Conventional",
+            "Earnest_Money__c": 20000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer15Ref"
+            },
+            "Property__c": "@640HarrisonAveRef",
+            "Buyer__c": "@Buyer5Ref",
+            "Amount__c": 615000,
+            "Status__c": "Withdrawn",
+            "Expiration_Date__c": "2027-01-25",
+            "Financing_Type__c": "FHA",
+            "Earnest_Money__c": 5000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer16Ref"
+            },
+            "Property__c": "@95GloucesterStRef",
+            "Buyer__c": "@Buyer1Ref",
+            "Amount__c": 680000,
+            "Status__c": "Countered",
+            "Expiration_Date__c": "2027-02-08",
+            "Financing_Type__c": "Jumbo",
+            "Earnest_Money__c": 20000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer17Ref"
+            },
+            "Property__c": "@95GloucesterStRef",
+            "Buyer__c": "@Buyer8Ref",
+            "Amount__c": 670000,
+            "Status__c": "Submitted",
+            "Expiration_Date__c": "2027-02-09",
+            "Financing_Type__c": "Conventional",
+            "Earnest_Money__c": 20000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer18Ref"
+            },
+            "Property__c": "@145CommonwealthAveRef",
+            "Buyer__c": "@Buyer2Ref",
+            "Amount__c": 830000,
+            "Status__c": "Submitted",
+            "Expiration_Date__c": "2027-02-20",
+            "Financing_Type__c": "Cash",
+            "Earnest_Money__c": 35000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer19Ref"
+            },
+            "Property__c": "@145CommonwealthAveRef",
+            "Buyer__c": "@Buyer3Ref",
+            "Amount__c": 845000,
+            "Status__c": "Submitted",
+            "Expiration_Date__c": "2027-02-21",
+            "Financing_Type__c": "Jumbo",
+            "Earnest_Money__c": 35000
+        },
+        {
+            "attributes": {
+                "type": "Offer__c",
+                "referenceId": "Offer20Ref"
+            },
+            "Property__c": "@72FrancisStRef",
+            "Buyer__c": "@Buyer4Ref",
+            "Amount__c": 810000,
+            "Status__c": "Rejected",
+            "Expiration_Date__c": "2027-01-12",
+            "Financing_Type__c": "VA",
+            "Earnest_Money__c": 10000
+        }
+    ]
+}
