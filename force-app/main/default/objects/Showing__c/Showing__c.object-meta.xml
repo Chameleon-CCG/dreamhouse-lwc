@@ -16,6 +16,7 @@
     <nameField>
         <displayFormat>SHW-{00000}</displayFormat>
         <label>Showing Number</label>
+        <startingNumber>1</startingNumber>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>

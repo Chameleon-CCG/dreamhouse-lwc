@@ -16,6 +16,7 @@
     <nameField>
         <displayFormat>OFR-{00000}</displayFormat>
         <label>Offer Number</label>
+        <startingNumber>1</startingNumber>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
