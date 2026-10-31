@@ -391,7 +391,9 @@ Do this for `dev`, `qa` and `uat`. Prod has no persona bindings.
 - **Score against the kit answer key** (`data/ANSWER_KEY.md`, planted defects 1, 2a, 2b, 3, 4, 5,
   6, 7, 8). For each plant, record the matching finding fingerprint, its dimension and severity,
   or "missed".
-- **Expect:** each plant is found in or near its expected dimension.
+- **Expect:** each plant is found in or near its expected dimension. The answer key's expected
+  severities (High, Medium, Low) do not match the platform's scale (`critical`, `warning`,
+  `info`; N4). Record the platform severity beside the expected one; do not score a mismatch.
 - **Gate:** none. A missed plant is a platform finding, but the run goes on.
 - **Evidence:** all pages and the plant-to-finding table.
 
@@ -745,9 +747,12 @@ One bundle carries every enhancement and audit-repair CHIT.
   `<release_audit_run_id>`.
 - **Wait:** `audits_status(run_id=<release_audit_run_id>, wait_seconds=55, tenant_id=<tenant_id>)`.
 - **Read:** `audits_get_run(run_id=<release_audit_run_id>, severity="critical", tenant_id=<tenant_id>)`
-  and `severity="high"`.
-- **Gate:** zero critical and zero high findings. Otherwise stop: the bundle does not move.
-  Never call `release_bundles_override_gate` without Jim and a GCR finding.
+  and `severity="warning"`.
+- **N4 (proposed CFG):** audit severities are `critical`, `warning` and `info`. There is no `high`.
+  So "clean of high or critical" is measured as: zero `critical`, and every `warning` either fixed
+  or given a disposition by Jim with a reason (`audits_set_disposition`).
+- **Gate:** zero `critical`, and no `warning` left `undecided`. Otherwise stop: the bundle does not
+  move. Never call `release_bundles_override_gate` without Jim and a GCR finding.
 - **Evidence:** both reads.
 
 ### 10.3 Schedule
@@ -918,6 +923,7 @@ For every document in this stage, the gate is the same:
 | 9.2, 10.4, 10.5 | Human sign-in as a persona | G9 FIX, interim MAN (`org_login_link` then Login-As) |
 | 10.4, 10.5 | Persona browser tests in qa and uat for a merged CHIT | **N3**, proposed FIX (expected refusal of `delivery_test_run`) |
 | 10.5 | Recorded UAT sign-off on the bundle | G7 FIX, interim MAN |
+| 10.2 | A "high" severity to gate on | **N4**, proposed CFG: gate on zero `critical` and no undecided `warning` |
 | 10.4 to 10.7 | Promotion only after verification | G8 FIX; checked by hand with `delivery_state` |
 | 10.4 to 10.7 | Each resume | G6 MAN (the human promotion gate) |
 | Customer lines | A customer identity in Slack | G13 EXT, accepted: posted as Jim |
