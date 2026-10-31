@@ -163,7 +163,7 @@ The clean-slate checklist from `reset.md` section 6, ticked.
 
 ## 3. Enterprise-grade bar
 
-**DRAFT. Jim must approve this list and its thresholds before Run 1 is scored against it.**
+**Approved by Jim on 2026-10-31. Run 1 is scored against this list and its thresholds.**
 
 The checks are copied from PHASE-SCRIM-03. Each one says how it is measured and what passes.
 Scope is the delivered change: every component in the bundle
